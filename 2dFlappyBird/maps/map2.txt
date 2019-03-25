@@ -1,0 +1,37 @@
+130 17 32 32
+// The first line should contain the width and height of the
+// map and the width and height of each tile. A list of character to
+// tile mappings is then provided where each character is preceded by a
+// # character. The dot character always defaults to a blank space 
+// Note that the referenced files should be in the same directory as the
+// tile map.
+#b=Brick.png
+#t=pipetop.png
+#m=pipe.png
+#p=pipebot.png
+#c=coin2.png
+#f=FinishLine.png
+// The actual tile map is preceded by the #map line
+#map
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+b...t....t.....t....t.....t.....t.....t....t....t.....t....t...t.....t....t.....t....t.....t.....t.....t....t....t.....t.........b
+b...m....m.....m....m.....m.....m.....m....m....m.....m....m...m.....m....m.....m....m.....m.....m.....m....m....m.....m.........b
+b...m....m.....m....m.....m.....m.....m....m....m.....m....m...m.....m....m.....m....m.....m.....m.....m....m....m.....m.........b
+b...m....m.....m....m.....m.....m.....m....p....m.....m....m...p.....m....m.....m....m.....m.....p.....m....m....m.....m.........b
+b...p....m.....p....m.....p.....m.....m.........m.....m....m.........p....m.....m....m.....m...........m....m....m.....m.........b
+b........m..........m...........m.....p....c....m.....p....p...c..........m.....m....m.....p.....c.....p....m....p.....m.........b
+b...c....p.....c....p.....c.....m...............m....................c....m.....m....m......................m..........p.........b
+b...............................p.....c....t.. .m.....c....c...t..........p.....m....m.....c.....t.....c....p....c...............b
+b...t....c.....t....c.....t................m....p..............m.....t..........p....p...........m.....................c.........b
+b...m..........m..........m.....c.....t....m..........t....t...m.....m....c................t.....m.....t....c....t...............b
+b...m....t.....m....t.....m...........m....m....c.....m....m...m.....m..........c....c.....m.....m.....m.........m.....t.........b
+b...m....m.....m....m.....m.....t.....m....m..........m....m...m.....m....t................m.....m.....m....t....m.....m.........b
+b...m....m.....m....m.....m.....m.....m....m....t.....m....m...m.....m....m.....t....t.....m.....m.....m....m....m.....m.........b
+b...m....m.....m....m.....m.....m.....m....m....m.....m....m...m.....m....m.....m....m.....m.....m.....m....m....m.....m.....f...b
+b...p....p.....p....p.....p.....p.....p....p....p.....p....p...p.....p....p.....p....p.....p.....p.....p....p....p.....p.....f...b
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+
+
+
+
